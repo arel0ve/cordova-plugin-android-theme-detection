@@ -1,0 +1,15 @@
+{
+  "name": "cordova-plugin-android-theme-detection",
+  "version": "1.0.0",
+  "description": "Cordova plugin for detect dark mode on Android",
+  "keywords": [
+    "cordova",
+    "dark-theme",
+    "dark-mode",
+    "theme",
+    "theme-detection",
+    "android"
+  ],
+  "author": "Valerii Psol",
+  "license": "MIT"
+}
