@@ -46,5 +46,6 @@ ThemeDetectionResponse {
 
 ## Changelog
 
+- 1.0.2: Fixed Android Min SDK.
 - 1.0.1: Add to github.
 - 1.0.0: Initial version.

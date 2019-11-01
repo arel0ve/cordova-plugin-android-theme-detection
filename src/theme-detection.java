@@ -24,7 +24,7 @@ public class ThemeDetection extends CordovaPlugin {
   private boolean isDarkMode(CallbackContext callbackContext) {
     callback = callbackContext;
     try {
-      String systemSDK = Build.VERSION.SDK_INT;
+      int systemSDK = Build.VERSION.SDK_INT;
       boolean enabled = systemSDK >= MINIMUM_SDK;
 
       String responseMessage = "Theme detection is not available. You need at least SDK = 28, but you have installed SDK = " + systemSDK;
