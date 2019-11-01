@@ -46,4 +46,5 @@ ThemeDetectionResponse {
 
 ## Changelog
 
+- 1.0.1: Add to github.
 - 1.0.0: Initial version.

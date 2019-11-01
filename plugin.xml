@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-android-theme-detection"
-        version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+        version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>AndroidThemeDetection</name>
     <author>Valerii Psol</author>
     <description>
         Cordova plugin for detect dark mode on Android
     </description>
     <license>MIT</license>
-    <repo>https://github.com/mariusbackes/cordova-plugin-theme-detection.git</repo>
-    <issue>https://github.com/mariusbackes/cordova-plugin-theme-detection/issues</issue>
+    <repo>https://github.com/arel0ve/cordova-plugin-android-theme-detection.git</repo>
+    <issue>https://github.com/arel0ve/cordova-plugin-android-theme-detection/issues</issue>
     <keywords>
         cordova, dark-theme, dark-mode, theme, theme-detection, android
     </keywords>
