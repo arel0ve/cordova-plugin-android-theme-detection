@@ -46,6 +46,7 @@ ThemeDetectionResponse {
 
 ## Changelog
 
+- 1.0.5: Fixed @Override.
 - 1.0.4: Fixed class name.
 - 1.0.3: Fixed class name.
 - 1.0.2: Fixed Android Min SDK.

@@ -7,6 +7,7 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
 import org.apache.cordova.PluginResult.Status;
 import org.json.JSONException;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class ThemeDetection extends CordovaPlugin {
@@ -17,7 +18,7 @@ public class ThemeDetection extends CordovaPlugin {
   private static final int MINIMUM_SDK = 28;
 
   @Override
-  public boolean execute(CallbackContext callbackContext) throws JSONException {
+  public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
     return isDarkMode(callbackContext);
   }
 
