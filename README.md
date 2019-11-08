@@ -48,6 +48,7 @@ ThemeDetectionResponse {
 
 ## Changelog
 
+- 2.0.1: First trying release.
 - 2.0.0: Re-created plugin with plugman.
 - 1.0.5: Fixed @Override.
 - 1.0.4: Fixed class name.
