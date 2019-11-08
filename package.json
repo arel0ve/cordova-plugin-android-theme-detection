@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-theme-detection",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Cordova plugin for detect theme on Android",
   "cordova": {
     "id": "cordova-plugin-android-theme-detection",

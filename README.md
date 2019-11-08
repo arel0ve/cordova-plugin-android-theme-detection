@@ -1,6 +1,7 @@
 # Cordova plugin for theme detection
 
-PLUGIN IS NOT WORKS AND IT DEVELOPMENT IS IN PROGRESS
+ATTENTION:
+FIRST RELEASE VERSION IS 2.0.2, DON'T USE LOWER VERSIONS
 
 ## Description
 
@@ -17,7 +18,7 @@ Add the plugin with the following command:
 ## Usage
 
 ```js
-cordova.themeDetection.isDarkMode(
+cordova.plugins.ThemeDetection.isDarkMode
   (res) => {
     console.log(res);
   },
@@ -46,8 +47,32 @@ ThemeDetectionResponse {
 }
 ```
 
+**ThemeDetectionResponse Examples**:
+
+```js
+ThemeDetectionResponse {
+    value: true;
+    message: 'Dark mode';
+}
+```
+
+```js
+ThemeDetectionResponse {
+    value: false;
+    message: 'Light mode';
+}
+```
+
+```js
+ThemeDetectionResponse {
+    value: false;
+    message: 'Theme detection is not available. You need at least SDK = 28, but you have installed SDK = <YOUR_SYSTEM_SDK>';
+}
+```
+
 ## Changelog
 
+- 2.0.2: First release.
 - 2.0.1: First trying release.
 - 2.0.0: Re-created plugin with plugman.
 - 1.0.5: Fixed @Override.
