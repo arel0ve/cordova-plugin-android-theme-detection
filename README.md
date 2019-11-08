@@ -1,5 +1,7 @@
 # Cordova plugin for theme detection
 
+PLUGIN IS NOT WORKS AND IT DEVELOPMENT IS IN PROGRESS
+
 ## Description
 
 Cordova plugin for detect dark mode on Android.
@@ -46,6 +48,7 @@ ThemeDetectionResponse {
 
 ## Changelog
 
+- 2.0.0: Re-created plugin with plugman.
 - 1.0.5: Fixed @Override.
 - 1.0.4: Fixed class name.
 - 1.0.3: Fixed class name.

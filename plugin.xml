@@ -1,29 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-android-theme-detection"
-        version="1.0.5" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>AndroidThemeDetection</name>
-    <author>Valerii Psol</author>
-    <description>
-        Cordova plugin for detect dark mode on Android
-    </description>
-    <license>MIT</license>
-    <repo>https://github.com/arel0ve/cordova-plugin-android-theme-detection.git</repo>
-    <issue>https://github.com/arel0ve/cordova-plugin-android-theme-detection/issues</issue>
-    <keywords>
-        cordova, dark-theme, dark-mode, theme, theme-detection, android
-    </keywords>
-
-    <js-module name="ThemeDetection" src="theme-detection.js">
-        <clobbers target="cordova.themeDetection" />
+<plugin id="cordova-plugin-android-theme-detection" version="2.0.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ThemeDetection</name>
+    <js-module name="ThemeDetection" src="www/ThemeDetection.js">
+        <clobbers target="cordova.plugins.ThemeDetection" />
     </js-module>
-
-    <!-- android -->
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file parent="/*" target="res/xml/config.xml">
             <feature name="ThemeDetection">
-                <param name="android-package" value="ua.valeriipsol.cordova.plugin.androidthemedetection"/>
+                <param name="android-package" value="cordova-plugin-android-theme-detection.ThemeDetection" />
             </feature>
         </config-file>
-        <source-file src="src/ThemeDetection.java" target-dir="src/ua/valeriipsol/cordova/plugin" />
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/ThemeDetection.java" target-dir="src/cordova-plugin-android-theme-detection/ThemeDetection" />
     </platform>
 </plugin>

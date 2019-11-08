@@ -1,22 +1,28 @@
 {
   "name": "cordova-plugin-android-theme-detection",
-  "version": "1.0.5",
-  "description": "Cordova plugin for detect dark mode on Android",
-  "keywords": [
-    "cordova",
-    "dark-theme",
-    "dark-mode",
-    "theme",
-    "theme-detection",
-    "android"
-  ],
-  "author": "Valerii Psol",
-  "license": "MIT",
+  "version": "2.0.0",
+  "description": "Cordova plugin for detect theme on Android",
+  "cordova": {
+    "id": "cordova-plugin-android-theme-detection",
+    "platforms": [
+      "android"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arel0ve/cordova-plugin-android-theme-detection.git"
   },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "theme-detection",
+    "android-theme",
+    "android-mode"
+  ],
+  "author": "Valerii Psol",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/arel0ve/cordova-plugin-android-theme-detection/issues"
-  }
+  },
+  "homepage": "https://github.com/arel0ve/cordova-plugin-android-theme-detection#readme"
 }
